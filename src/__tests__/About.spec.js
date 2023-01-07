@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { createMemoryHistory } from 'history';
